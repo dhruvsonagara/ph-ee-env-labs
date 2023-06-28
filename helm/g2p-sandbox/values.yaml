@@ -446,7 +446,7 @@ ph-ee-engine:
     image: "419830066942.dkr.ecr.ap-south-1.amazonaws.com/phee-bulk-processor"
     SPRING_PROFILES_ACTIVE: "bb"
     imageTag: latest
-    tenant: "rhino,gorilla"
+    tenants: "rhino,gorilla"
     hostname: "bulk-connector.sandbox.fynarfin.io"
     aws:
       region: "us-east-2"
